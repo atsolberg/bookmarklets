@@ -1,0 +1,1 @@
+javascript:(function(){var styles = document.querySelectorAll('link[rel=\'stylesheet\']'); for (var s = 0; s < styles.length; s++) {styles[s].mediax = styles[s].media;if (styles[s].media === 'only x') { styles[s].media = styles[s].mediax; } else if (styles[s].media !== 'print') {styles[s].media = 'only x';}}})();
